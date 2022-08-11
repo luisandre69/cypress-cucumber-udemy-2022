@@ -1,0 +1,29 @@
+{
+  "name": "cypress-cucumber-udemy-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisandre69/cypress-cucumber-udemy-2022.git"
+  },
+  "keywords": [],
+  "author": "Luis Abreu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisandre69/cypress-cucumber-udemy-2022/issues"
+  },
+  "homepage": "https://github.com/luisandre69/cypress-cucumber-udemy-2022#readme",
+  "dependencies": {
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "prettier": "^2.7.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
